@@ -1,0 +1,21 @@
+.movieSearchBox{
+    width: 90%;
+    background-color: #f4f7f8;
+    border-radius: 8px;
+    height: 45px;
+    padding: 12px;
+    color: black;
+
+}
+
+.movieSearchBox::placeholder{
+    color: black;
+    font-size: 16px;
+    letter-spacing: 2px;
+}
+
+.movieWraper{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}

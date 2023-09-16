@@ -1,0 +1,8 @@
+.horrorCard{
+    display: flex;
+    gap: 1rem;
+}
+.headingTitle{
+    color: white;
+    font-size: 26px;
+}

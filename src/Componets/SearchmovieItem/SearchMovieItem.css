@@ -1,0 +1,51 @@
+.searchMovieContainer{
+    height: 100px;
+    display: flex;
+    width: 100%;
+    background-color:#1515156e;
+    padding: 12px;
+    gap: 1rem;
+}
+.SearchMovieDes{
+color: rebeccapurple;
+width: 80%;
+height: 100%;
+}
+
+.searchImgbannerWrapper{
+    height: 100%;
+    width: 20%;
+}
+.searchImgbanner{
+    width: 80px;
+    border-radius: 5px;
+    height: 100%;
+    object-fit: cover;
+}
+
+.readBtn{
+    background-color: red;
+    color: white;
+    padding: 6px;
+    border-radius: 7px;
+
+}
+.specialHeadingTitle{
+    color: red;
+    font-weight: bold;
+    font-size: 15px;
+    letter-spacing: 1.5px;
+}
+
+.specialItemDesc{
+    overflow: hidden;
+    letter-spacing: 1px;
+    font-size: 10px;
+text-overflow: ellipsis;
+display: -webkit-box;
+-webkit-line-clamp: 3;
+-webkit-box-orient: vertical;
+color: black;
+font-weight: bold;
+
+}

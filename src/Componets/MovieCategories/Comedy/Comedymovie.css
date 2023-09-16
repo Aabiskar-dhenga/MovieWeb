@@ -1,0 +1,14 @@
+.comedyWrapper{
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
+}
+
+.comedyCard{
+    display: flex;
+    gap: 1rem;
+}
+
+.headingTitle{
+    color: white;
+}

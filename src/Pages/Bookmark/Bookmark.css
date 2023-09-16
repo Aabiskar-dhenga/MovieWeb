@@ -1,0 +1,38 @@
+.bookmarkContainer{
+width: 100%;
+max-height: auto;
+background-color: black;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    box-sizing: border-box;
+}
+
+.cardHolder{
+
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+
+}
+
+.notifyTitle{
+    color: grey;
+    letter-spacing: 4px;
+    font-size: 28px;
+}
+
+.ifnotBookmarked{
+    padding: 2rem;
+    border-radius:12px;
+    gap: 2rem;
+    background-color: #1515156e;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

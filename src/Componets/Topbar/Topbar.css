@@ -1,0 +1,64 @@
+.topContainer {
+    background-size: cover;
+    background-position: center; 
+    object-fit: cover;
+    width: 100%;
+    box-sizing: border-box;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.commonBtn{
+
+background-color: rgb(5 0 0 / 87%);
+font-weight: bold;
+width: 122px;
+height: 34px;
+letter-spacing: 3.2px;
+font-size: 12px;
+
+border-radius: 2px;
+    color: white;
+    cursor: pointer;
+    outline: none;
+    border: none;
+}
+
+.headingssTitle{
+    font-size: 34px;
+    color: white;
+    text-shadow: 1px 1px 1px #000;
+    letter-spacing: 2px;
+
+}
+
+.buttonWrappper{
+    display: flex;
+    gap: 0.8rem;
+}
+
+.movieDescription{
+    color: white;
+    text-shadow: 1px 1px 1px #000;
+    line-height: 20px;
+    font-weight: 12px;
+    letter-spacing: 2px;
+    /* background-color: #7297b875; */
+}
+
+.movieInfo{
+    display: flex;
+    flex-direction: column;
+    gap: 0.7rem;
+    font-size: 13px;
+margin: auto 2rem;
+    height: auto;
+    width: 400px;
+}
+.playBtn{
+    background-color: red;
+    border: none;
+    color: white;
+
+}
